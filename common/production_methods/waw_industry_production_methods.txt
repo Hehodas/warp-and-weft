@@ -1,0 +1,880 @@
+﻿pm_arcane_catalysts = {
+	texture = "gfx/interface/icons/production_method_icons/arcane_catalysts.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_manalets_add = 30
+			
+			goods_output_catalysts_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_runic_catalysts = {
+	texture = "gfx/interface/icons/production_method_icons/runic_catalysts.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 4
+		}
+	}
+	
+	unlocking_technologies = {
+		ether_purification
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_electricity_add = 30
+			
+			# output goods
+			goods_output_catalysts_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_aetheric_catalysts = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_catalysts.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	unlocking_technologies = {
+		mana_crystallization
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 50
+			goods_input_electricity_add = 40
+			goods_input_codex_add = 10
+			
+			# output goods
+			goods_output_catalysts_add = 120
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1750
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1250
+		}
+	}
+}
+
+pm_publicly_traded_building_mana_forge = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_no_manaweave = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_imbued_threads_textile_mills = {
+	texture = "gfx/interface/icons/production_method_icons/imbued_threads.dds"
+	
+	unlocking_technologies = {
+		wevmana
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 20
+			goods_input_catalysts_add = 5
+			goods_input_fabric_add = 10
+			
+			# output goods
+			goods_output_luxury_clothes_add = 20
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_mana_strands_textile_mills = {
+	texture = "gfx/interface/icons/production_method_icons/mana_strands.dds"
+	
+	unlocking_technologies = {
+		influzna
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 10
+			goods_input_fabric_add = 20
+			
+			# output goods
+			goods_output_luxury_clothes_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_no_managrav = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_managrav_wood_shipyards = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_wood.dds"
+
+	unlocking_production_methods = {
+		pm_basic_shipbuilding
+		pm_complex_shipbuilding
+	}
+	
+	unlocking_technologies = {
+		managrav
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 10
+			goods_input_hardwood_add = 20
+			
+			# output goods
+			goods_output_clippers_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_managrav_steel_shipyards = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_steel.dds"
+
+	unlocking_production_methods = {
+		pm_metal_shipbuilding
+		pm_arc_welding_shipbuilding
+	}
+	
+	unlocking_technologies = {
+		managrav
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 10
+			goods_input_steel_add = 20
+			goods_input_electricity_add = 10
+			
+			# output goods
+			goods_output_steamers_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_managrav_tools = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_tools.dds"
+	
+	unlocking_technologies = {
+		managrav
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 20
+			goods_input_catalysts_add = 5
+			goods_input_steel_add = 10
+			
+			# output goods
+			goods_output_tools_add = 35
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_managrav_furnitures = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_furnitures.dds"
+	
+	unlocking_technologies = {
+		managrav
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 20
+			goods_input_catalysts_add = 5
+			goods_input_wood_add = 10
+			
+			# output goods
+			goods_output_furniture_add = 35
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_managrav_cushions = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_cushions.dds"
+	
+	unlocking_technologies = {
+		wevmana
+	}
+
+	unlocking_production_methods = {
+		pm_luxury_furniture
+		pm_precision_tools
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 10
+			goods_input_wood_add = 20
+			goods_input_silk_add = 10
+			
+			# output goods
+			goods_output_furniture_add = 50
+			goods_output_luxury_furniture_add = 20
+		}
+
+		unscaled = {
+			building_throughput_add = 0.15
+		}
+	}
+}
+
+pm_managrav_temperature_codex = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_temperature_codex.dds"
+	
+	unlocking_technologies = {
+		power_words
+	}
+
+	unlocking_production_methods = {
+		pm_luxury_furniture
+		pm_precision_tools
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_wood_add = 20
+			goods_input_silk_add = 15
+			goods_input_codex_add = 5
+			
+			# output goods
+			goods_output_furniture_add = 55
+			goods_output_luxury_furniture_add = 35
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_managrav_rifle = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_rifle.dds"
+	
+	unlocking_technologies = {
+		managrav
+	}
+
+	unlocking_production_methods = {
+		pm_rifles
+		pm_repeaters
+		pm_bolt_action_rifles
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_steel_add = 10
+			
+			# output goods
+			goods_output_small_arms_add = 30
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_no_influzna = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_managlass = {
+	texture = "gfx/interface/icons/production_method_icons/managlass.dds"
+	
+	unlocking_technologies = {
+		influzna
+	}
+
+	unlocking_production_methods = {
+		pm_leaded_glass
+		pm_crystal_glass
+		pm_houseware_plastics
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 5
+			goods_input_lead_add = 10
+			
+			# output goods
+			goods_output_glass_add = 30
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_managlazing = {
+	texture = "gfx/interface/icons/production_method_icons/managlazing.dds"
+	
+	unlocking_technologies = {
+		arcane_distillation
+	}
+
+	unlocking_production_methods = {
+		pm_ceramics
+		pm_bone_china
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_dye_add = 10
+			goods_input_lead_add = 10
+			
+			# output goods
+			goods_output_glass_add = 30
+			goods_output_porcelain_add = 30
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_imbued_bullets = {
+	texture = "gfx/interface/icons/production_method_icons/imbued_bullets.dds"
+	
+	unlocking_technologies = {
+		influzna
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 20
+			goods_input_catalysts_add = 10
+			goods_input_lead_add = 10
+			
+			# output goods
+			goods_output_ammunition_add = 25
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_imbued_bullets_and_powder = {
+	texture = "gfx/interface/icons/production_method_icons/infused_bullets.dds"
+	
+	unlocking_technologies = {
+		arcane_distillation
+	}
+
+	unlocking_production_methods = {
+		pm_explosive_shells
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_lead_add = 10
+			goods_input_explosives_add = 10
+			
+			# output goods
+			goods_output_ammunition_add = 50
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_infused_steel = {
+	texture = "gfx/interface/icons/production_method_icons/managrav_steel.dds"
+	
+	unlocking_technologies = {
+		influzna
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_iron_add = 20
+			
+			# output goods
+			goods_output_steel_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_infused_fertilizers = {
+	texture = "gfx/interface/icons/production_method_icons/infused_fertilizers.dds"
+	
+	unlocking_technologies = {
+		agrimyst
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 5
+			goods_input_sulfur_add = 20
+			
+			# output goods
+			goods_output_fertilizer_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_no_forgmana = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_ether_pipes = {
+	texture = "gfx/interface/icons/production_method_icons/ether_pipes.dds"
+	
+	unlocking_technologies = {
+		ether_purification
+	}
+
+	unlocking_production_methods = {
+		pm_steam_engines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 20
+			goods_input_catalysts_add = 5
+			goods_input_steel_add = 20
+			
+			# output goods
+			goods_output_engines_add = 40
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_aetheric_engine = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_engine.dds"
+	
+	unlocking_technologies = {
+		mana_crystallization
+	}
+
+	unlocking_production_methods = {
+		pm_steam_engines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 10
+			goods_input_steel_add = 40
+			
+			# output goods
+			goods_output_engines_add = 80
+		}
+
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
+pm_thaumaturgic_movement = {
+	texture = "gfx/interface/icons/production_method_icons/thaumaturgic_movement.dds"
+	
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 60
+			goods_input_codex_add = 10
+			goods_input_steel_add = 60
+			
+			# output goods
+			goods_output_engines_add = 120
+		}
+
+		unscaled = {
+			building_throughput_add = 0.3
+		}
+	}
+}
+
+pm_maglev_trains = {
+	texture = "gfx/interface/icons/production_method_icons/maglev_trains.dds"	
+
+	unlocking_technologies = {
+		managlyf
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_catalysts_add = 5
+			goods_input_engines_add = 5
+			goods_input_manalets_add = 8
+			goods_input_electricity_add = 5
+
+			# output goods
+			goods_output_transportation_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2500
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 40
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_no_codex = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_regular_codex_military_shipyards = {
+	texture = "gfx/interface/icons/production_method_icons/regular_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	unlocking_production_methods = {
+		pm_military_shipbuilding_steam
+		pm_military_shipbuilding_steam_2
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 5
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_ironclads_mult = 0.1
+		}
+	}
+}
+
+pm_aetheric_codex_military_shipyards = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	unlocking_production_methods = {
+		pm_military_shipbuilding_steam_2
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 10
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_ironclads_mult = 0.2
+		}
+	}
+}
+
+pm_thaumaturgic_codex_military_shipyards = {
+	texture = "gfx/interface/icons/production_method_icons/thaumaturgic_codex_military.dds"	
+
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+
+	unlocking_production_methods = {
+		pm_military_shipbuilding_steam_2
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 20
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_ironclads_mult = 0.33	
+		}
+	}
+}
+
+pm_regular_codex_military_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/regular_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	unlocking_production_methods = {
+		pm_smoothbores
+		pm_breech_loaders
+		pm_recoiled_barrels
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 5
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_artillery_mult = 0.1
+		}
+	}
+}
+
+pm_aetheric_codex_military_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	unlocking_production_methods = {
+		pm_smoothbores
+		pm_breech_loaders
+		pm_recoiled_barrels
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 10
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_artillery_mult = 0.2
+		}
+	}
+}
+
+pm_thaumaturgic_codex_military_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/thaumaturgic_codex_military.dds"	
+
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+
+	unlocking_production_methods = {
+		pm_smoothbores
+		pm_breech_loaders
+		pm_recoiled_barrels
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 20
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_artillery_mult = 0.33
+		}
+	}
+}
+
+pm_regular_codex_military_war_machine = {
+	texture = "gfx/interface/icons/production_method_icons/regular_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 5
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_aeroplanes_mult = 0.10
+			goods_output_tanks_mult = 0.10
+		}
+	}
+}
+
+pm_aetheric_codex_military_war_machine = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_codex_military.dds"	
+
+	unlocking_technologies = {
+		codex_militarization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 10
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_aeroplanes_mult = 0.20
+			goods_output_tanks_mult = 0.20
+		}
+
+	}
+}
+
+pm_thaumaturgic_codex_military_war_machine = {
+	texture = "gfx/interface/icons/production_method_icons/thaumaturgic_codex_military.dds"	
+
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_codex_add = 20
+
+			# output goods
+		}
+
+		unscaled = {
+			goods_output_aeroplanes_mult = 0.33
+			goods_output_tanks_mult = 0.33
+		}
+	}
+}

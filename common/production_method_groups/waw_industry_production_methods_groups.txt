@@ -1,0 +1,152 @@
+﻿pmg_ownership_capital_building_mana_forge = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_mana_forge
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_mana_forge = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_arcane_catalysts
+		pm_runic_catalysts
+		pm_aetheric_catalysts
+	}
+}
+
+pmg_manaweave_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_manaweave
+		pm_imbued_threads_textile_mills
+		pm_mana_strands_textile_mills
+	}
+}
+
+pmg_managrav_shipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_managrav
+		pm_managrav_wood_shipyards
+		pm_managrav_steel_shipyards
+	}
+}
+
+pmg_managrav_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_managrav
+		pm_managrav_tools
+	}
+}
+
+pmg_managrav_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_managrav
+		pm_managrav_furnitures
+		pm_managrav_cushions
+		pm_managrav_temperature_codex
+	}
+}
+
+pmg_managrav_arms_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_managrav
+		pm_managrav_rifle
+	}
+}
+
+pmg_influzna_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_influzna
+		pm_managlass
+		pm_managlazing
+	}
+}
+
+pmg_inluzna_munition_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_influzna
+		pm_imbued_bullets
+		pm_imbued_bullets_and_powder
+	}
+}
+
+pmg_influzna_steel_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_influzna
+		pm_infused_steel
+	}
+}
+
+pmg_agrimyst_chemical_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_agrimyst
+		pm_infused_fertilizers
+	}
+}
+
+pmg_forgmana_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_forgmana
+		pm_ether_pipes
+		pm_aetheric_engine
+		pm_thaumaturgic_movement
+	}
+}
+
+pmg_base_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_early_trains
+		pm_steam_trains
+		pm_electric_trains
+		pm_diesel_trains
+		pm_maglev_trains
+	}
+}
+
+pmg_codex_militarization_military_shipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_codex
+		pm_regular_codex_military_shipyards
+		pm_aetheric_codex_military_shipyards
+		pm_thaumaturgic_codex_military_shipyards
+	}
+}
+
+pmg_codex_militarization_artillery_foundries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_codex
+		pm_regular_codex_military_artillery
+		pm_aetheric_codex_military_artillery
+		pm_thaumaturgic_codex_military_artillery
+	}
+}
+
+pmg_codex_militarization_war_machine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_codex
+		pm_regular_codex_military_war_machine
+		pm_aetheric_codex_military_war_machine
+		pm_thaumaturgic_codex_military_war_machine
+	}
+}

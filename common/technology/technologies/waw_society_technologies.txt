@@ -1,0 +1,130 @@
+﻿magic_theories = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/magic_theories.dds"
+	category = society
+
+	modifier = {
+		country_weekly_innovation_add = 5
+		country_weekly_innovation_max_add = 10
+		country_weekly_innovation_mult = 0.05
+	}
+
+	on_researched = {
+		hidden_effect = {
+			add_technology_researched = magic_theories_production
+			add_technology_researched = magic_theories_military
+		}
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+arcane_theories = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/arcane_theories.dds"
+	category = society
+
+	unlocking_technologies = {
+		magic_theories
+	}
+
+	modifier = {
+		country_weekly_innovation_add = 10
+		country_weekly_innovation_max_add = 20
+		country_weekly_innovation_mult = 0.05
+	}
+
+	on_researched = {
+		hidden_effect = {
+			add_technology_researched = arcane_theories_production
+			add_technology_researched = arcane_theories_military
+		}
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+aetheric_theories = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/aetheric_theories.dds"
+	category = society
+
+	unlocking_technologies = {
+		arcane_theories
+	}
+
+	modifier = {
+		country_weekly_innovation_add = 15
+		country_weekly_innovation_max_add = 30
+		country_weekly_innovation_mult = 0.05
+	}
+
+	on_researched = {
+		hidden_effect = {
+			add_technology_researched = aetheric_theories_production
+			add_technology_researched = aetheric_theories_military
+		}
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+thaumaturgic_theories = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/thaumaturgic_theories.dds"
+	category = society
+
+	unlocking_technologies = {
+		aetheric_theories
+	}
+
+	modifier = {
+		country_weekly_innovation_add = 20
+		country_weekly_innovation_max_add = 40
+		country_weekly_innovation_mult = 0.05
+	}
+
+	on_researched = {
+		hidden_effect = {
+			add_technology_researched = thaumaturgic_theories_production
+			add_technology_researched = thaumaturgic_theories_military
+		}
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+mundane_theories = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/mundane_theories.dds"
+	category = society
+
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+
+	modifier = {
+		country_weekly_innovation_add = 25
+		country_weekly_innovation_max_add = 50
+		country_weekly_innovation_mult = 0.05
+	}
+
+	on_researched = {
+		hidden_effect = {
+			add_technology_researched = mundane_theories_production
+			add_technology_researched = mundane_theories_military
+		}
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}

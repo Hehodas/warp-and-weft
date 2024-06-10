@@ -1,0 +1,19 @@
+﻿building_tea_plantation = {
+	building_group = bg_tea_plantations
+	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_tea_plantation
+		pmg_agrimyst_tea_plantation
+		pmg_train_automation_building_tea_plantation
+		pmg_ownership_land_building_tea_plantation
+	}
+}

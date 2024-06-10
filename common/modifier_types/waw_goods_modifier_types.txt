@@ -1,0 +1,62 @@
+﻿goods_input_manalets_add = {
+	good = no
+	percent = no
+}
+
+goods_input_mobilization_manalets_add = {
+	good = no
+	percent = no
+}
+
+goods_output_manalets_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_manalets_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+
+goods_input_catalysts_add = {
+	good = no
+	percent = no
+}
+
+goods_input_mobilization_catalysts_add = {
+	good = no
+	percent = no
+}
+
+goods_output_catalysts_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_catalysts_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+
+goods_input_codex_add = {
+	good = no
+	percent = no
+}
+
+goods_input_mobilization_codex_add = {
+	good = no
+	percent = no
+}
+
+goods_output_codex_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_codex_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}

@@ -1,0 +1,32 @@
+﻿l_english: 
+ pmg_base_building_tower:0 "Base"
+ pmg_codex_production:0 "Codex"
+ pmg_tower_academia:0 "Elitism"
+
+ pmg_mining_equipment_building_mana_mine:0 "Mining Equipment"
+ pmg_explosives_building_mana_mine:0 "Explosives"
+ pmg_steam_automation_building_mana_mine:0 "Steam Automation"
+ pmg_train_automation_building_mana_mine:0 "Train Automation"
+ pmg_ownership_capital_building_mana_mine:0 "Ownership"
+
+ pmg_ownership_capital_building_mana_forge:0 "Ownership Capital"
+ pmg_base_building_mana_forge:0 "Base"
+
+ pmg_manaweave_textile_mills:0 "Wevmana"
+ pmg_managrav_shipyards:0 "Managrav"
+ pmg_managrav_tooling_workshops:0 "Managrav"
+ pmg_managrav_furniture_manufacturies:0 "Managrav"
+ pmg_managrav_arms_industry:0 "Managrav"
+
+ pmg_influzna_glassworks:0 "Influzna"
+ pmg_inluzna_munition_plants:0 "Influzna"
+ pmg_influzna_steel_mills:0 "Influzna"
+
+ pmg_agrimyst_tea_plantation:0 "Agrimyst"
+ pmg_agrimyst_chemical_plants:0 "Agrimyst"
+
+ pmg_forgmana_motor_industry:0 "Forgmana"
+
+ pmg_codex_militarization_military_shipyards:0 "Codex Integration"
+ pmg_codex_militarization_artillery_foundries:0 "Codex Integration"
+ pmg_codex_militarization_war_machine:0 "Codex Integration"

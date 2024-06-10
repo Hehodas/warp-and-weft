@@ -1,0 +1,335 @@
+﻿magic_theories_military = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/magic_theories.dds"
+	category = military
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+arcane_theoriesmilitary = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/arcane_theories.dds"
+	category = military
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+aetheric_theories_military = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/aetheric_theories.dds"
+	category = military
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+thaumaturgic_theories_military = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/thaumaturgic_theories.dds"
+	category = military
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+mundane_theories_military = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/mundane_theories.dds"
+	category = military
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+magical_applications = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/magical_applications.dds"
+	category = military
+
+	unlocking_technologies = {
+		arcane_theories_military
+		napoleonic_warfare
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+longrifle = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/longrifle.dds"
+	category = military
+
+	unlocking_technologies = {
+		arcane_theories_military
+		rifling
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+wave_surfing = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/wave_surfing.dds"
+	category = military
+
+	unlocking_technologies = {
+		arcane_theories_military
+		screw_frigate
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+aetherships = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/aetherships.dds"
+	category = military
+
+	unlocking_technologies = {
+		arcane_theories_military
+		wave_surfing
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+aetheric_warfare = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/aetheric_warfare.dds"
+	category = military
+
+	unlocking_technologies = {
+		aetheric_theories_military
+		magical_applications
+	}
+
+	modifier = {
+		unit_advancement_speed_mult = 0.1
+		unit_offense_mult = 0.1
+		unit_defense_mult = 0.1
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+codex_militarization = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/codex_militarization.dds"
+	category = military
+
+	unlocking_technologies = {
+		aetheric_theories_military
+		aetheric_warfare
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+sapper_tech = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/sapper_tech.dds"
+	category = military
+
+	unlocking_technologies = {
+		aetheric_theories_military
+		field_works
+		logistics
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+weather_weaponization = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/weather_weaponization.dds"
+	category = military
+
+	unlocking_technologies = {
+		aetheric_theories_military
+		wave_surfing
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+myrmidon_tech = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/myrmidon_tech.dds"
+	category = military
+
+	unlocking_technologies = {
+		thaumaturgic_theories_military
+		military_statistics
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+battlefield_destruction = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/battlefield_destruction.dds"
+	category = military
+
+	unlocking_technologies = {
+		thaumaturgic_theories_military
+		wargaming
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+mechanim_tech = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/mechanim_tech.dds"
+	category = military
+
+	unlocking_technologies = {
+		thaumaturgic_theories_military
+		sapper_tech
+		electric_telegraph
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+battery_warfare = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/battery_warfare.dds"
+	category = military
+
+	unlocking_technologies = {
+		thaumaturgic_theories_military
+		monitor_tech
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+weather_warfare = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/weather_warfare.dds"
+	category = military
+
+	unlocking_technologies = {
+		thaumaturgic_theories_military
+		weather_weaponization
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+aetherial_manuevers = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/aetherial_manuevers.dds"
+	category = military
+
+	unlocking_technologies = {
+		mundane_theories_military
+		military_aviation
+		myrmidon_tech
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+magical_annihilation = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/magical_annihilation.dds"
+	category = military
+
+	unlocking_technologies = {
+		mundane_theories_military
+		battlefield_destruction
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+matrix_field = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/matrix_field.dds"
+	category = military
+
+	unlocking_technologies = {
+		mundane_theories_military
+		battery_warfare
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+offensive_barrage = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/offensive_barrage.dds"
+	category = military
+
+	unlocking_technologies = {
+		mundane_theories_military
+		matrix_field
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+cumulonimbus = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/Cumulonimbus.dds"
+	category = military
+
+	unlocking_technologies = {
+		mundane_theories_military
+		weather_warfare
+		dreadnought
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}

@@ -1,0 +1,29 @@
+texticon = {
+	icon = manalets
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/manalets.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = catalysts
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/catalysts.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = codex
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/codex.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

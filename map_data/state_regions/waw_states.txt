@@ -1,0 +1,18 @@
+﻿STATE_BOHEMIA = {
+    id = 52
+    subsistence_building = building_subsistence_farms
+    provinces = { x0B9B4F x1D6B94 x2ED2B3 x400226 x465A13 x61902F x67FE18 x716141 x71E041 x74C71F x81C142 x9080A0 x9C175D xA40163 xAFD2D1 xCDE96E xD286DB xEE1941 xF06141 xF0E041 xFA371D }
+    traits = { state_trait_elbe_river }
+    city = x81C142
+    farm = x9C175D
+    mine = x74C71F
+    wood = xAFD2D1
+    arable_land = 152
+    arable_resources = { bg_vineyard_plantations bg_rye_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 48
+        bg_iron_mining = 45
+        bg_logging = 17
+		bg_mana_mine = 50
+    }
+}

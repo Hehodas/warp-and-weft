@@ -1,0 +1,304 @@
+﻿######################
+# pmg_tower_academia #
+######################
+pm_base_building_tower = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+			goods_input_manalets_add = 1
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 1000
+			building_employment_academics_add = 1000
+			building_employment_laborers_add = 1000
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.1
+		}
+	}
+}
+
+pm_arcane_research = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = {
+		arcane_theories
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+			goods_input_manalets_add = 2
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 1000
+			building_employment_academics_add = 1250
+			building_employment_laborers_add = 750
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.15
+		}	
+	}
+}
+
+pm_aetheric_manipulation = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		aetheric_theories
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_paper_add = 15
+			goods_input_manalets_add = 3
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 1000
+			building_employment_academics_add = 1500
+			building_employment_laborers_add = 500
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.2
+		}	
+	}
+}
+
+pm_thaumaturgic_experimentation = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		thaumaturgic_theories
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 7
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_paper_add = 20
+			goods_input_manalets_add = 5
+			goods_input_catalysts_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 750
+			building_employment_academics_add = 1750
+			building_employment_laborers_add = 500
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.25
+		}	
+	}
+}
+
+pm_mundane_understanding = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		mundane_theories
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_paper_add = 20
+			goods_input_catalysts_add = 3
+			goods_input_codex_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_academics_add = 2000
+			building_employment_laborers_add = 500
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.33
+		}	
+	}
+}
+
+########################
+# pmg_codex_production #
+########################
+
+pm_codex_research = {
+	texture = "gfx/interface/icons/production_method_icons/arcane_catalysts.dds"
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 1
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 1250
+			building_employment_laborers_add = 250
+		}
+	}
+}
+
+pm_power_words_engraving = {
+	texture = "gfx/interface/icons/production_method_icons/arcane_catalysts.dds"
+	
+	unlocking_technologies = {
+		power_words
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_manalets_add = 30
+			goods_input_catalysts_add = 20
+			
+			goods_output_codex_add = 40
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 1500
+			building_employment_laborers_add = 500
+		}
+	}
+}
+
+pm_managlyf = {
+	texture = "gfx/interface/icons/production_method_icons/runic_catalysts.dds"
+	
+	unlocking_technologies = {
+		managlyf
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_manalets_add = 40
+			goods_input_catalysts_add = 40
+			
+			goods_output_codex_add = 80
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 1750
+			building_employment_laborers_add = 500
+		}
+	}
+}
+
+pm_the_hum = {
+	texture = "gfx/interface/icons/production_method_icons/aetheric_catalysts.dds"
+
+	unlocking_technologies = {
+		the_hum
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_manalets_add = 50
+			goods_input_catalysts_add = 80
+			
+			goods_output_codex_add = 120
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 2000
+			building_employment_laborers_add = 500
+		}
+	}
+
+}
+
+######################
+# pmg_tower_academia #
+######################
+
+pm_mystic_academia = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
+	
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 1500
+			building_employment_academics_add = 250
+			building_employment_aristocrats_add = 250
+		}
+	}			
+}
+
+pm_elite_academia = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	unlocking_technologies = {
+		aetheric_theories
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 500
+			building_employment_clergymen_add = 1000
+			building_employment_academics_add = 500
+		}
+	}			
+}
+
+pm_mundane_academia = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	unlocking_technologies = {
+		mundane_theories
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 2000
+		}
+	}			
+}

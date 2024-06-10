@@ -1,0 +1,281 @@
+﻿magic_theories_production = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/magic_theories.dds"
+	category = production
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+arcane_theories_production = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/arcane_theories.dds"
+	category = production
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+aetheric_theories_production = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/aetheric_theories.dds"
+	category = production
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+thaumaturgic_theories_production = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/thaumaturgic_theories.dds"
+	category = production
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+mundane_theories_production = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/mundane_theories.dds"
+	category = production
+	can_research = no
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+mana_mining = {
+	# Unlocks construction of Mana Mine
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/mana_mining.dds"
+	category = production
+
+	unlocking_technologies = {
+		magic_theories_production
+		shaft_mining
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+wevmana = {
+	# Unlock Luxury Clothing PM
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/wevmana.dds"
+	category = production
+
+	unlocking_technologies = {
+		arcane_theories_production
+		lathe
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+managrav = {
+	# Unlock Ships, Tools, Furniture and Weapons PM
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/managrav.dds"
+	category = production
+
+	unlocking_technologies = {
+		arcane_theories_production
+		mechanical_tools
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+essence_extraction = {
+	# Unlock Mana Wastelands and Mana Chasm building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/essence_extraction.dds"
+	category = production
+
+	unlocking_technologies = {
+		arcane_theories_production
+		mana_mining
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+manalets_refining = {
+	# Unlock Mana Wastelands and Mana Chasm building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/manalets_refining.dds"
+	category = production
+
+	unlocking_technologies = {
+		arcane_theories_production
+		bessemer_process
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+influzna = {
+	# Unlock Glass, Ammunition, Steel and Explosives PM
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/influzna.dds"
+	category = production
+
+	unlocking_technologies = {
+		aetheric_theories_production
+		fractional_distillation
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+ether_purification = {
+	# Unlock Catalysts PM
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/ether_purification.dds"
+	category = production
+
+	unlocking_technologies = {
+		aetheric_theories_production
+		manalets_refining
+		essence_extraction
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+power_words = {
+	# Unlock Codex PM
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/power_words.dds"
+	category = production
+
+	unlocking_technologies = {
+		aetheric_theories_production
+		ether_purification
+		influzna
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+aetheric_pump = {
+	# Unlock Mining PM for all mines
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/aetheric_pump.dds"
+	category = production
+
+	unlocking_technologies = {
+		thaumaturgic_theories_production
+		electrical_generation
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+agrimyst = {
+	# Unlock Fertilizer, Tea and Groceries PM
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/agrimyst.dds"
+	category = production
+
+	unlocking_technologies = {
+		thaumaturgic_theories_production
+		influzna
+		improved_fertilizer
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+arcane_distillation = {
+	# Unlock better Glass, Ammunition, Steel and Explosives PM, and Alcool PM
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/arcane_distillation.dds"
+	category = production
+
+	unlocking_technologies = {
+		thaumaturgic_theories_production
+		influzna
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+managlyf = {
+	# Unlock better Codex PM
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/managlyf.dds"
+	category = production
+
+	unlocking_technologies = {
+		thaumaturgic_theories_production
+		power_words
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+mana_crystallization = {
+	# Unlock better Catalysts PM
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/mana_crystallization.dds"
+	category = production
+
+	unlocking_technologies = {
+		thaumaturgic_theories_production
+		ether_purification
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+the_hum = {
+	# Unlock better Codex PM
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/the_hum.dds"
+	category = production
+
+	unlocking_technologies = {
+		mundane_theories_production
+		managlyf
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}

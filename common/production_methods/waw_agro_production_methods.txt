@@ -1,0 +1,26 @@
+﻿pm_no_agrimyst = {
+	texture = "gfx/interface/icons/production_method_icons/no_magic.dds"
+}
+
+pm_infused_leaves = {
+	texture = "gfx/interface/icons/production_method_icons/infused_leaves.dds"
+	
+	unlocking_technologies = {
+		agrimyst
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_manalets_add = 10
+			goods_input_fertilizer_add = 5
+			
+			# output goods
+			goods_output_tea_add = 20
+		}
+
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
