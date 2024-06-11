@@ -320,7 +320,7 @@ offensive_barrage = {
 
 cumulonimbus = {
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/Cumulonimbus.dds"
+	texture = "gfx/interface/icons/invention_icons/cumulonimbus.dds"
 	category = military
 
 	unlocking_technologies = {

@@ -235,8 +235,8 @@ mobilization_option_runic_weapons = {
 		managrav
 	}
 	upkeep_modifier = {
-		goods_input_small_arms_add = 2
-		goods_input_manalets_add = 1
+		goods_input_small_arms_add = 1
+		goods_input_manalets_add = 2
 	}
 	unit_modifier = {
 		unit_offense_add = 15
