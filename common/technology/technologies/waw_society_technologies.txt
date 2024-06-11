@@ -17,7 +17,7 @@
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 5
 	}
 }
 
@@ -44,7 +44,7 @@ arcane_theories = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 5
 	}
 }
 
@@ -71,7 +71,7 @@ aetheric_theories = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 5
 	}
 }
 
@@ -98,7 +98,7 @@ thaumaturgic_theories = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 5
 	}
 }
 
@@ -125,6 +125,6 @@ mundane_theories = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 5
 	}
 }

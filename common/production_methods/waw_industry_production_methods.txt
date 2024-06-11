@@ -85,6 +85,8 @@ pm_aetheric_catalysts = {
 			building_employment_engineers_add = 1250
 		}
 	}
+
+	required_input_goods = electricity
 }
 
 pm_publicly_traded_building_mana_forge = {
@@ -129,10 +131,12 @@ pm_imbued_threads_textile_mills = {
 			
 			# output goods
 			goods_output_luxury_clothes_add = 20
+			goods_output_clothes_add = 20
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_luxury_clothes_mult = 0.1
+			goods_output_clothes_mult = 0.1
 		}
 	}
 }
@@ -153,10 +157,12 @@ pm_mana_strands_textile_mills = {
 			
 			# output goods
 			goods_output_luxury_clothes_add = 40
+			goods_output_clothes_add = 40
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_luxury_clothes_mult = 0.2
+			goods_output_clothes_mult = 0.2
 		}
 	}
 }
@@ -189,7 +195,7 @@ pm_managrav_wood_shipyards = {
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_clippers_mult = 0.1
 		}
 	}
 }
@@ -215,11 +221,11 @@ pm_managrav_steel_shipyards = {
 			goods_input_electricity_add = 10
 			
 			# output goods
-			goods_output_steamers_add = 40
+			goods_output_steamers_add = 50
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_steamers_mult = 0.1
 		}
 	}
 
@@ -241,11 +247,11 @@ pm_managrav_tools = {
 			goods_input_steel_add = 10
 			
 			# output goods
-			goods_output_tools_add = 35
+			goods_output_tools_add = 40
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_tools_mult = 0.1
 		}
 	}
 }
@@ -265,11 +271,11 @@ pm_managrav_furnitures = {
 			goods_input_wood_add = 10
 			
 			# output goods
-			goods_output_furniture_add = 35
+			goods_output_furniture_add = 40
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_furniture_mult = 0.1
 		}
 	}
 }
@@ -300,7 +306,8 @@ pm_managrav_cushions = {
 		}
 
 		unscaled = {
-			building_throughput_add = 0.15
+			goods_output_furniture_mult = 0.15
+			goods_output_luxury_furniture_mult = 0.15
 		}
 	}
 }
@@ -327,12 +334,13 @@ pm_managrav_temperature_codex = {
 			goods_input_codex_add = 5
 			
 			# output goods
-			goods_output_furniture_add = 55
-			goods_output_luxury_furniture_add = 35
+			goods_output_furniture_add = 60
+			goods_output_luxury_furniture_add = 40
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_furniture_mult = 0.2
+			goods_output_luxury_furniture_mult = 0.2
 		}
 	}
 }
@@ -358,11 +366,11 @@ pm_managrav_rifle = {
 			goods_input_steel_add = 10
 			
 			# output goods
-			goods_output_small_arms_add = 30
+			goods_output_small_arms_add = 35
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_small_arms_mult = 0.2
 		}
 	}
 }
@@ -396,7 +404,7 @@ pm_managlass = {
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_glass_mult = 0.1
 		}
 	}
 }
@@ -422,12 +430,13 @@ pm_managlazing = {
 			goods_input_lead_add = 10
 			
 			# output goods
-			goods_output_glass_add = 30
-			goods_output_porcelain_add = 30
+			goods_output_glass_add = 40
+			goods_output_porcelain_add = 25
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_glass_mult = 0.2
+			goods_output_porcelain_mult = 0.2
 		}
 	}
 }
@@ -447,11 +456,11 @@ pm_imbued_bullets = {
 			goods_input_lead_add = 10
 			
 			# output goods
-			goods_output_ammunition_add = 25
+			goods_output_ammunition_add = 30
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_ammunition_mult = 0.1
 		}
 	}
 }
@@ -476,11 +485,11 @@ pm_imbued_bullets_and_powder = {
 			goods_input_explosives_add = 10
 			
 			# output goods
-			goods_output_ammunition_add = 50
+			goods_output_ammunition_add = 60
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_ammunition_mult = 0.2
 		}
 	}
 }
@@ -500,11 +509,11 @@ pm_infused_steel = {
 			goods_input_iron_add = 20
 			
 			# output goods
-			goods_output_steel_add = 40
+			goods_output_steel_add = 50
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_steel_mult = 0.2
 		}
 	}
 }
@@ -524,11 +533,11 @@ pm_infused_fertilizers = {
 			goods_input_sulfur_add = 20
 			
 			# output goods
-			goods_output_fertilizer_add = 40
+			goods_output_fertilizer_add = 50
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_fertilizer_mult = 0.2
 		}
 	}
 }
@@ -553,14 +562,14 @@ pm_ether_pipes = {
 			# input goods
 			goods_input_manalets_add = 20
 			goods_input_catalysts_add = 5
-			goods_input_steel_add = 20
+			goods_input_steel_add = 15
 			
 			# output goods
 			goods_output_engines_add = 40
 		}
 
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_engines_mult = 0.1
 		}
 	}
 }
@@ -581,14 +590,14 @@ pm_aetheric_engine = {
 			# input goods
 			goods_input_manalets_add = 40
 			goods_input_catalysts_add = 10
-			goods_input_steel_add = 40
+			goods_input_steel_add = 30
 			
 			# output goods
 			goods_output_engines_add = 80
 		}
 
 		unscaled = {
-			building_throughput_add = 0.2
+			goods_output_engines_mult = 0.2
 		}
 	}
 }
@@ -605,14 +614,14 @@ pm_thaumaturgic_movement = {
 			# input goods
 			goods_input_manalets_add = 60
 			goods_input_codex_add = 10
-			goods_input_steel_add = 60
+			goods_input_steel_add = 50
 			
 			# output goods
 			goods_output_engines_add = 120
 		}
 
 		unscaled = {
-			building_throughput_add = 0.3
+			goods_output_engines_mult = 0.3
 		}
 	}
 }
@@ -633,7 +642,7 @@ pm_maglev_trains = {
 			goods_input_electricity_add = 5
 
 			# output goods
-			goods_output_transportation_add = 40
+			goods_output_transportation_add = 45
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1500
@@ -644,7 +653,7 @@ pm_maglev_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 40
+			state_infrastructure_add = 45
 		}
 	}
 
@@ -673,6 +682,7 @@ pm_regular_codex_military_shipyards = {
 			goods_input_codex_add = 5
 
 			# output goods
+			goods_output_ironclads_add = 5
 		}
 
 		unscaled = {
@@ -698,6 +708,7 @@ pm_aetheric_codex_military_shipyards = {
 			goods_input_codex_add = 10
 
 			# output goods
+			goods_output_ironclads_add = 10
 		}
 
 		unscaled = {
@@ -723,6 +734,7 @@ pm_thaumaturgic_codex_military_shipyards = {
 			goods_input_codex_add = 20
 
 			# output goods
+			goods_output_ironclads_add = 20
 		}
 
 		unscaled = {
@@ -750,6 +762,7 @@ pm_regular_codex_military_artillery = {
 			goods_input_codex_add = 5
 
 			# output goods
+			goods_output_artillery_add = 5
 		}
 
 		unscaled = {
@@ -777,6 +790,7 @@ pm_aetheric_codex_military_artillery = {
 			goods_input_codex_add = 10
 
 			# output goods
+			goods_output_artillery_add = 10
 		}
 
 		unscaled = {
@@ -804,6 +818,7 @@ pm_thaumaturgic_codex_military_artillery = {
 			goods_input_codex_add = 20
 
 			# output goods
+			goods_output_artillery_add = 20
 		}
 
 		unscaled = {

@@ -60,3 +60,48 @@ goods_input_codex_mult = {
 	percent = yes
 	num_decimals = 0
 }
+
+goods_output_luxury_clothes_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_clothes_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_furniture_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_luxury_furniture_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_glass_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_porcelain_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_ammunition_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_steel_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_fertilizer_mult = {
+	good = yes
+	percent = yes
+}

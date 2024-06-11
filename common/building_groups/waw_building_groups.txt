@@ -6,3 +6,28 @@
 
 	can_use_slaves = yes
 }
+
+bg_mana_wastelands = {
+	parent_group = bg_mining
+	
+	default_building = building_mana_wastelands
+	discoverable_resource = yes
+
+	can_use_slaves = yes
+}
+
+bg_mana_chasm = {
+	parent_group = bg_mining
+	
+	default_building = building_mana_chasm
+	discoverable_resource = yes
+
+	can_use_slaves = yes
+}
+
+bg_tower = {
+	parent_group = bg_government
+
+	default_building = building_tower
+	economy_of_scale_ai_factor = 5.0
+}

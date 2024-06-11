@@ -9,7 +9,7 @@
 	}
 }
 
-arcane_theoriesmilitary = {
+arcane_theories_military = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/arcane_theories.dds"
 	category = military
@@ -326,7 +326,6 @@ cumulonimbus = {
 	unlocking_technologies = {
 		mundane_theories_military
 		weather_warfare
-		dreadnought
 	}
 	
 	ai_weight = {

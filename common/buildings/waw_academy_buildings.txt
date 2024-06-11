@@ -1,6 +1,6 @@
 ﻿building_tower = {
 
-	building_group = bg_technology
+	building_group = bg_tower
 
 	city_type = city
 
@@ -19,4 +19,5 @@
 	texture = "gfx/interface/icons/building_icons/building_tower.dds"
 
 	required_construction = construction_cost_very_high
+	ai_value = 1500
 }

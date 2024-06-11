@@ -1,7 +1,7 @@
 ﻿l_french:
  magic_theories_production:0 "Magic Theories"
  magic_theories_production_desc:0 "TODO"
- arcane_theories_production:0 "Aracane Theories"
+ arcane_theories_production:0 "Arcane Theories"
  arcane_theories_production_desc:0 ""
  aetheric_theories_production:0 "Aetheric Theories"
  aetheric_theories_production_desc:0 ""
@@ -12,7 +12,7 @@
 
  magic_theories_military:0 "Magic Theories"
  magic_theories_military_desc:0 "TODO"
- arcane_theories_military:0 "Aracane Theories"
+ arcane_theories_military:0 "Arcane Theories"
  arcane_theories_military_desc:0 ""
  aetheric_theories_military:0 "Aetheric Theories"
  aetheric_theories_military_desc:0 ""
@@ -23,7 +23,7 @@
 
  magic_theories:0 "Magic Theories"
  magic_theories_desc:0 "TODO"
- arcane_theories:0 "Aracane Theories"
+ arcane_theories:0 "Arcane Theories"
  arcane_theories_desc:0 ""
  aetheric_theories:0 "Aetheric Theories"
  aetheric_theories_desc:0 ""
